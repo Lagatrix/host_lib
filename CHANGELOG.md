@@ -6,5 +6,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## [Unreleased]
 ## Added
 - @javierfh03 - Develop the os getter with mocks and tests.
+- @javierfh03 - Develop the uname getter with mocks and tests.
 
 [Unreleased]: https://github.com/Lagatrix/host_lib.git
