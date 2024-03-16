@@ -18,6 +18,9 @@ class UnameGetter:
 
         Returns:
             The uname information in this order: host name and kernel version.
+
+        Raises:
+            CommandError: If the error is not expected.
         """
         data_list: list[str] = (await (self.__command_manager.execute_command
                                        ("/bin/uname -r -n")))[0].split()
